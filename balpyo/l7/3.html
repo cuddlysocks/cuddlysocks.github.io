@@ -5,25 +5,21 @@
         </title>
     </head>
     <body>
-        <style>
-            li {margin-bottom: 1vh;}
-        </style>
-        <h1 style="color: red; margin-bottom: 1vh">암호화 해시 함수</h1>
+        <h1 style="color: red"><span style="opacity: 40%; color: purple">암호화</span> 해시 함수</h1>
         <div style="text-align: left; font-size: 6vh; width: 100%">
             <table style="width: 100%">
                 <tr width="100%">
-                    <td style="text-align: left; vertical-align: bottom; font-size: 6vh">
-                        <span style="color: red">암호화 해시 함수</span>의 특징:
+                    <td style="text-align: left; vertical-align: bottom; font-size: 5.8vh">
+                        <span style="color: red">해시 함수</span>의 경우는:
                     </td>
                     <td style="text-align: center">
-                        <img src="cryphsh_1.png" style="vertical-align: bottom; height: 25vh; background-color: white" />
+                        <img src="hsh_1.png" style="vertical-align: bottom; height: 25vh; background-color: white" />
                     </td>
                 </tr>
             </table>
             <ul style="margin-top: 0px">
-                <li><span style="color: brown">역상 저항성</span>: 주어진 해시 값에 대해, 그 해시 값을 생성하는 입력값을 찾는 것이 계산상 어렵다. <span style="color: yellow">일방향함수다.</li>
-                <li><span style="color: brown">제 2 역상 저항성</span>: 입력 값에 대해, 그 입력의 해시 값을 바꾸지 않으면서 입력을 변경하는 것이 계산상 어렵다.</li>
-                <li><span style="color: brown">충돌 저항성</span>: 같은 해시 값을 생성하는 두 개의 입력값을 찾는 것이 계산상 어려워야 한다.</li>
+                <li>정의역 (가능한 입력값)은 모든 <span style="color: brown">문자열</span>이다.</li>
+                <li>공역 (가능한 출력값)은 모든 <span style="color: brown">고정된 길이의 문자열</span>이다.</li>
             </ul>
         </div>
     </body>

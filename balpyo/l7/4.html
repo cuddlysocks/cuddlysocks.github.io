@@ -6,16 +6,24 @@
     </head>
     <body>
         <style>
-            li {margin: 0vh;}
+            li {margin-bottom: 1vh;}
         </style>
-        <h1 style="color: purple; margin-bottom: 0vh">암호화 해시 함수</h1>
-        <img src="verif_2.png" style="vertical-align: bottom; height: 40vh; background-color: white" />
+        <h1 style="color: red; margin-bottom: 1vh">암호화 해시 함수</h1>
         <div style="text-align: left; font-size: 6vh; width: 100%">
-            암호화 해시 함수의 쓸모 중에서:
+            <table style="width: 100%">
+                <tr width="100%">
+                    <td style="text-align: left; vertical-align: bottom; font-size: 6vh">
+                        <span style="color: red">암호화 해시 함수</span>의 특징:
+                    </td>
+                    <td style="text-align: center">
+                        <img src="cryphsh_1.png" style="vertical-align: bottom; height: 25vh; background-color: white" />
+                    </td>
+                </tr>
+            </table>
             <ul style="margin-top: 0px">
-                <li>파일 무결성 확인 (예: 디지털 서명).</li>
-                <li>비밀 번호 확인.</li>
-                <li>작업 증명 시스템 (예: 비트코인).</li>
+                <li><span style="color: brown">역상 저항성</span>: 주어진 해시 값에 대해, 그 해시 값을 생성하는 입력값을 찾는 것이 계산상 어렵다. <span style="color: yellow">일방향함수다.</li>
+                <li><span style="color: brown">제 2 역상 저항성</span>: 입력 값에 대해, 그 입력의 해시 값을 바꾸지 않으면서 입력을 변경하는 것이 계산상 어렵다.</li>
+                <li><span style="color: brown">충돌 저항성</span>: 같은 해시 값을 생성하는 두 개의 입력값을 찾는 것이 계산상 어려워야 한다.</li>
             </ul>
         </div>
     </body>
