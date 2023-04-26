@@ -1,0 +1,32 @@
+body{
+    border-width: 1vh;
+    border-color: gray;
+    border-style: solid;
+    margin: 0pt;
+    background-color: white; /*anything leaking?*/
+    font-size: 4vh;
+    font-family: sans-serif;
+    color: black;
+    direction: ltr;
+    text-align: justify;
+}
+div.main {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    box-sizing: border-box;
+}
+iframe.hidden{height: 0%; width: 0%; display: none}
+
+h1{font-size: 7vh; text-align: center}
+div.latex{display: inline-block}
+div{width: 100%; margin: 0 auto; text-align: center}
+.sub{font-size: 3vh; margin: 0 0 1vh 0}
+/* explicit margin-bottom for ul will now stretch it: */
+li {margin-bottom: inherit}
